@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background: #f5f7fb;
+  color: #34519b;
+  font-size: 20px;
+}
+
+.tour-wrapper {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.tour-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.tour-info {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+#map-container {
+  position: relative;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+#map {
+  width: 100%;
+  display: block;
+  border-radius: 15px;
+}
+
+.map-point {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: #34519b;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  border: 3px solid white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4);
+  transition: transform 0.2s, background 0.2s;
+}
+
+.map-point:hover {
+  transform: translate(-50%, -50%) scale(1.2);
+  background: #4b6ac6;
+}
+
+#panorama-container {
+  position: fixed;
+  inset: 0;
+  background: black;
+  z-index: 1000;
+}
+
+#panorama {
+  width: 100%;
+  height: 100%;
+}
+
+#back-to-map {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 15px;
+  font-family: "Raleway", sans-serif;
+  color: #34519b;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);
+  z-index: 2000;
+  transition: background 0.2s;
+}
+
+#back-to-map:hover {
+  background: #f1f1f1;
+}
+
+/* 📱 Адаптив */
+@media (max-width: 768px) {
+  .tour-title { font-size: 22px; }
+  .tour-info { font-size: 14px; }
+  .map-point { width: 18px; height: 18px; }
+  #back-to-map { font-size: 14px; padding: 6px 10px; }
+}
+
+@media (max-width: 480px) {
+  .tour-title { font-size: 20px; }
+  .tour-info { font-size: 12px; }
+  .map-point { width: 15px; height: 15px; }
+  #back-to-map { font-size: 12px; padding: 5px 8px; }
+}

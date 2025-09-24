@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Тур</title>
+  <!-- Pannellum з CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum/build/pannellum.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/pannellum/build/pannellum.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="tour-wrapper">
+
+    <!-- Заголовок -->
+    <h1 class="tour-title">📌 3D Тур територією</h1>
+
+    <!-- Міні інструкція -->
+    <div class="tour-info">
+      🔹 Натисни на точку на карті, щоб перейти у панораму.<br>
+      🔹 У панорамі крути мишею (або пальцем на телефоні).<br>
+      🔹 Натискай на стрілки в панорамі, щоб рухатися далі.<br>
+      🔹 Щоб повернутися — кнопка 🗺 у лівому верхньому кутку.
+    </div>
+
+    <!-- Карта з точками -->
+    <div id="map-container">
+      <img src="img/map.jpg" id="map" alt="Карта">
+      <div class="map-point" style="top:78%; left:5%;" onclick="openPanorama('pano1')" title="Вхід"></div>
+      <div class="map-point" style="top:75%; left:11%;" onclick="openPanorama('pano2')" title="Двір"></div>
+      <div class="map-point" style="top:63%; left:8%;" onclick="openPanorama('pano3')" title="Двір"></div>
+    </div>
+  </div>
+
+  <!-- Панорама -->
+  <div id="panorama-container" style="display:none;">
+    <div id="panorama"></div>
+    <button id="back-to-map">🗺 Карта</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
