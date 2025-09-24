@@ -7,23 +7,29 @@ function openPanorama(panoId) {
     const panoramas = {
         "pano1": {
             "type": "equirectangular",
-            "panorama": "img/1_vhid.JPG",
+            "panorama": "img/1_vhid.webp",
             "yaw": -120,
             "pitch": 0,
             "hotSpots": [
                 {
-                    
                     "pitch": -3.3192732795777604,
                     "yaw": -128.9998425241154,
                     "type": "scene",
                     "text": "Далі →",
-                    "sceneId": "pano2"
+                    "sceneId": "pano2",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                 
                 }
             ]
         },
         "pano2": {
             "type": "equirectangular",
-            "panorama": "img/2_zentr_house.JPG",
+            "panorama": "img/2_zentr_house.webp",
              "yaw": 198,
             "pitch": 0,
             "hotSpots": [
@@ -32,27 +38,45 @@ function openPanorama(panoId) {
                     "yaw": 13.297250818950383,
                     "type": "scene",
                     "text": "Назад ←",
-                    "sceneId": "pano1"
+                    "sceneId": "pano1",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
                 },
                 {
                     "pitch": 0.14619661268440978,
                     "yaw":  116.46540144801737,
                     "type": "scene",
                     "text": "Назад ←",
-                    "sceneId": "pano3"
+                    "sceneId": "pano3",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
                 }
             ]
         },
             "pano3": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.JPG",
+            "panorama": "img/3_oxorona.webp",
             "hotSpots": [
                 {
                     "pitch": 0,
                     "yaw": -30,
                     "type": "scene",
                     "text": "Назад ←",
-                    "sceneId": "pano1"
+                    "sceneId": "pano1",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
                 }
             ]
         }
