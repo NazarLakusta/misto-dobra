@@ -90,7 +90,7 @@ function openPanorama(panoId) {
                 firstScene: panoId,
                 sceneFadeDuration: 1000,
                 autoLoad: true,
-                hotSpotDebug: true   
+                // hotSpotDebug: true   
             },
             scenes: panoramas
         });
