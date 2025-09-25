@@ -66,11 +66,11 @@ function openPanorama(panoId) {
             "panorama": "img/3_oxorona.webp",
             "hotSpots": [
                 {
-                    "pitch": 0,
-                    "yaw": -30,
+                    "pitch": -2.325847463400691,
+                    "yaw": 45.189800561394186,
                     "type": "scene",
                     "text": "Назад ←",
-                    "sceneId": "pano1",
+                    "sceneId": "pano2",
                     "createTooltipFunc": function(hotSpotDiv) {
             hotSpotDiv.style.width = "40px";
             hotSpotDiv.style.height = "40px";
