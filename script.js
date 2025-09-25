@@ -64,6 +64,8 @@ function openPanorama(panoId) {
             "pano3": {
             "type": "equirectangular",
             "panorama": "img/3_oxorona.webp",
+            "yaw": -49,
+            "pitch": 0,
             "hotSpots": [
                 {
                     "pitch": -2.325847463400691,
