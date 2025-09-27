@@ -21,8 +21,8 @@ body {
 
 .map-point {
   position: absolute;
-  width: 26px;
-  height: 26px;
+  width: 20px;
+  height: 20px;
   background: #34519b;
   border-radius: 50%;
   cursor: pointer;
