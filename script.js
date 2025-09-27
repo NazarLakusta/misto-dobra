@@ -47,11 +47,11 @@ function openPanorama(panoId) {
         }
                 },
                 {
-                    "pitch": 0.14619661268440978,
-                    "yaw":  116.46540144801737,
+                    "pitch": -7.116020533648538,
+                    "yaw":  118.93603783930016,
                     "type": "scene",
                     "text": "Назад ←",
-                    "sceneId": "pano3",
+                    "sceneId": "pano2_1",
                     "createTooltipFunc": function(hotSpotDiv) {
             hotSpotDiv.style.width = "40px";
             hotSpotDiv.style.height = "40px";
@@ -92,7 +92,7 @@ function openPanorama(panoId) {
                 firstScene: panoId,
                 sceneFadeDuration: 1000,
                 autoLoad: true,
-                // hotSpotDebug: true   
+                hotSpotDebug: true   
             },
             scenes: panoramas
         });
