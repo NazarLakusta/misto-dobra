@@ -461,9 +461,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+            "pano22": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/22_grass.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -482,9 +482,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+            "pano22_2": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/22_2_grass.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -503,9 +503,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+             "pano23": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/23_grasssss.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -524,9 +524,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+            "pano24": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/24_crossroad.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -545,9 +545,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+            "pano25": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/25_vhidpg.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -566,9 +566,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+            "pano26": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/26_pg_sand.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -587,9 +587,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+            "pano27": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/27_pgsand.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -608,9 +608,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+            "pano28": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/28_grass.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -629,9 +629,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+             "pano29": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/29_crossroadpark.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -650,9 +650,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+             "pano30": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/30_park.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -671,9 +671,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+            "pano31": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/31_stezh.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -692,9 +692,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+             "pano32": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/32_playgr.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -713,9 +713,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+             "pano33": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/33_ros.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -734,9 +734,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+             "pano34": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/34_rose.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -755,9 +755,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+             "pano35": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/35_rossee.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -776,9 +776,9 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+            "pano36": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/36_road_to_od.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
@@ -797,9 +797,94 @@ function openPanorama(panoId) {
                 }
             ]
         },
-                    "pano3": {
+            "pano37": {
             "type": "equirectangular",
-            "panorama": "img/3_oxorona.webp",
+            "panorama": "img/37_animal.webp",
+            "yaw": -49,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -2.325847463400691,
+                    "yaw": 45.189800561394186,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano2",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                }
+            ]
+        },
+            "pano38": {
+            "type": "equirectangular",
+            "panorama": "img/38_odes.webp",
+            "yaw": -49,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -2.325847463400691,
+                    "yaw": 45.189800561394186,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano2",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                }
+            ]
+        },
+            "pano39": {
+            "type": "equirectangular",
+            "panorama": "img/39_parkooo.webp",
+            "yaw": -49,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -2.325847463400691,
+                    "yaw": 45.189800561394186,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano2",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                }
+            ]
+        },
+            "pano37": {
+            "type": "equirectangular",
+            "panorama": "img/37_animal.webp",
+            "yaw": -49,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -2.325847463400691,
+                    "yaw": 45.189800561394186,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano2",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                }
+            ]
+        },
+
+            "pano37": {
+            "type": "equirectangular",
+            "panorama": "img/37_animal.webp",
             "yaw": -49,
             "pitch": 0,
             "hotSpots": [
