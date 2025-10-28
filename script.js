@@ -8,13 +8,13 @@ function openPanorama(panoId) {
         // pano 1
         "pano1": {
             "type": "equirectangular",
-            "panorama": "img/1_vhid.webp",
+            "panorama": "img/1_new_photo_vhid.webp",
             "yaw": -120,
             "pitch": 0,
             "hotSpots": [
                 {
-                    "pitch": -3.3192732795777604,
-                    "yaw": -128.9998425241154,
+                    "pitch": -7.110672455568462,
+                    "yaw":  22.962260563269158,
                     "type": "scene",
                     "text": "Далі →",
                     "sceneId": "pano2",
@@ -1900,6 +1900,28 @@ function openPanorama(panoId) {
             ]
         },
             "pano39": {
+            "type": "equirectangular",
+            "panorama": "img/39_parkooo.webp",
+            "yaw": -120,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -2.159502924531527,
+                    "yaw": -68.25427290425496,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano30",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                }
+            ]
+        },
+
+        "pano40": {
             "type": "equirectangular",
             "panorama": "img/39_parkooo.webp",
             "yaw": -120,
