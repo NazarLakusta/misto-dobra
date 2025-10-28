@@ -275,7 +275,7 @@ function openPanorama(panoId) {
             ]
         },
 
-        // треба зробити
+
             "pano7": {
             "type": "equirectangular",
             "panorama": "img/7_house.webp",
@@ -369,21 +369,14 @@ function openPanorama(panoId) {
             hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
             hotSpotDiv.style.backgroundSize = "contain";
         }
-                }
-            ]
-        },
-            "pano9": {
-            "type": "equirectangular",
-            "panorama": "img/9_road_pg.webp",
-            "yaw": -49,
-            "pitch": 0,
-            "hotSpots": [
-                {
-                    "pitch": -2.325847463400691,
-                    "yaw": 45.189800561394186,
+                },
+
+                                {
+                    "pitch": -6.267549266296295,
+                    "yaw":  -173.26558258752186,
                     "type": "scene",
                     "text": "Назад ←",
-                    "sceneId": "pano2",
+                    "sceneId": "pano42",
                     "createTooltipFunc": function(hotSpotDiv) {
             hotSpotDiv.style.width = "40px";
             hotSpotDiv.style.height = "40px";
@@ -391,6 +384,54 @@ function openPanorama(panoId) {
             hotSpotDiv.style.backgroundSize = "contain";
         }
                 }
+            ]
+        },
+            "pano9": {
+            "type": "equirectangular",
+            "panorama": "img/9_new_photo.webp",
+            "yaw": -49,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -1.230776113702684,
+                    "yaw": -16.396320791033837,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano6",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                },
+                {
+                    "pitch": 2.238467411198172,
+                    "yaw": 63.147315108852744,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano8",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                },
+                {
+                    "pitch": 2.5687583054911567,
+                    "yaw": -169.92832846474033,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano10",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                }
+
             ]
         },
             "pano10": {
@@ -412,6 +453,8 @@ function openPanorama(panoId) {
             hotSpotDiv.style.backgroundSize = "contain";
         }
                 },
+
+                  
                 {
                     "pitch": -7.3029534053072584,
                     "yaw": -146.68370633250652,
@@ -446,6 +489,19 @@ function openPanorama(panoId) {
             hotSpotDiv.style.backgroundSize = "contain";
         }
                 },
+                {
+                    "pitch": -7.301473532790667,
+                    "yaw": -158.70953344150223,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_5",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                },
 {
                     "pitch": -7.3096633887475555,
                     "yaw": -71.1681839004649,
@@ -461,6 +517,8 @@ function openPanorama(panoId) {
                 }
             ]
         },
+
+
             "pano12": {
             "type": "equirectangular",
             "panorama": "img/12_house_roadd.webp",
@@ -514,7 +572,21 @@ function openPanorama(panoId) {
             hotSpotDiv.style.backgroundSize = "contain";
         }
                 },
-                            {
+
+        {
+                    "pitch": -16.87633644270845,
+                    "yaw": -110.37942743496562,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_12",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                },
+              {
                     "pitch": -8.99309481109795,
                     "yaw": -44.14741369579043,
                     "type": "scene",
@@ -1324,6 +1396,32 @@ function openPanorama(panoId) {
             hotSpotDiv.style.backgroundSize = "contain";
         }
                 },
+{
+                    "pitch":  0.4640254940834017,
+                    "yaw": 170.66287206385923,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano40",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                },
+                {
+                    "pitch": -1.5553403405963957,
+                    "yaw": -144.22825143948623,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                },
 
                                 {
                     "pitch": -0.34675621010366203,
@@ -1413,6 +1511,19 @@ function openPanorama(panoId) {
         }
                 },
                 {
+                    "pitch": -4.986624582077043,
+                    "yaw": -86.03582525939345,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano40",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                },
+                {
                     "pitch": -8.607544765451157,
                     "yaw": 18.54016378902059,
                     "type": "scene",
@@ -1439,7 +1550,7 @@ function openPanorama(panoId) {
         }
                 },
 
-                                {
+                {
                     "pitch": -0.24852424153462008,
                     "yaw": 169.82913704874042,
                     "type": "scene",
@@ -1451,7 +1562,8 @@ function openPanorama(panoId) {
             hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
             hotSpotDiv.style.backgroundSize = "contain";
         }
-                }
+                },
+                
             ]
         },
             "pano31": {
@@ -1923,16 +2035,43 @@ function openPanorama(panoId) {
 
         "pano40": {
             "type": "equirectangular",
-            "panorama": "img/39_parkooo.webp",
+            "panorama": "img/40_vhid_mama.webp",
             "yaw": -120,
             "pitch": 0,
             "hotSpots": [
                 {
-                    "pitch": -2.159502924531527,
-                    "yaw": -68.25427290425496,
+                    "pitch": -8.245479645631077,
+                    "yaw":  26.968338608992262,
                     "type": "scene",
                     "text": "Назад ←",
-                    "sceneId": "pano30",
+                    "sceneId": "pano29",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                },
+
+                {
+                    "pitch": -18.83548472423421,
+                    "yaw":  88.40605449196201,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano40_1_B",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        }
+                },
+                {
+                    "pitch": -20.28334832230711,
+                    "yaw":  150.6898586253694,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano40_1_A",
                     "createTooltipFunc": function(hotSpotDiv) {
             hotSpotDiv.style.width = "40px";
             hotSpotDiv.style.height = "40px";
@@ -1940,6 +2079,751 @@ function openPanorama(panoId) {
             hotSpotDiv.style.backgroundSize = "contain";
         }
                 }
+            ]
+        },
+
+
+            "pano40_1_B": {
+            "type": "equirectangular",
+            "panorama": "img/40_1_zona_B.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -11.296276544981335,
+                    "yaw": -24.567805036450025,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano40",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+            "pano40_1_A": {
+            "type": "equirectangular",
+            "panorama": "img/40_1_zona_A.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -15.11299908860177,
+                    "yaw": -48.882518923480696,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano40",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+         "pano41": {
+            "type": "equirectangular",
+            "panorama": "img/41_vhid_sad.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -0.05161754226266647,
+                    "yaw": 143.62728578868507,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano29",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+                {
+                    "pitch": -21.38346954659482,
+                    "yaw": -121.93876318399754,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41_1",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+        "pano41_1": {
+            "type": "equirectangular",
+            "panorama": "img/41_1_wardrobe.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -24.054119803075213,
+                    "yaw": -43.68401854432773,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+                {
+                    "pitch":  3.917755624872512,
+                    "yaw":  130.87530653628193,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41_2",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+
+            "pano41_2": {
+            "type": "equirectangular",
+            "panorama": "img/41_2_stairs.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -29.17243007216038,
+                    "yaw": -118.74071023677611,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41_1",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+                {
+                    "pitch":  -4.11905562346879,
+                    "yaw":  -144.04409402054705,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41_3",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+            "pano41_3": {
+            "type": "equirectangular",
+            "panorama": "img/41_3_sad.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -18.517031728137667,
+                    "yaw": 164.8436958100991,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41_2",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+                {
+                    "pitch":  -27.003164038400108,
+                    "yaw":  77.05838067766263,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41_6",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+
+    {
+                    "pitch": -10.36934185054126,
+                    "yaw":  20.763379061820217,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41_4",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+    {
+                    "pitch": -9.578942843135325,
+                    "yaw":  -124.05183381500123,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41_5",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+        "pano41_4": {
+            "type": "equirectangular",
+            "panorama": "img/41_4_koridor.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -10.8995314999368848,
+                    "yaw": 26.20862212487935,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41_3",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+            "pano41_5": {
+            "type": "equirectangular",
+            "panorama": "img/41_5_second_zone.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -9.713767312370887,
+                    "yaw": -104.56468773818243,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41_3",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+            "pano41_6": {
+            "type": "equirectangular",
+            "panorama": "img/41_6_boy_room.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -19.116892183636462,
+                    "yaw": -128.1093418530152,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano41_3",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+
+            "pano42": {
+            "type": "equirectangular",
+            "panorama": "img/42_butt_vhid.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -7.562021991288968,
+                    "yaw": 11.770775362999842,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano8",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+
+                    {
+                    "pitch": -18.4392185777311088,
+                    "yaw": -168.5799209673103,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_11",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+
+    
+    {
+                    "pitch": -15.01664249317526,
+                    "yaw": -156.77554140023042,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_2",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+                 "pano42_3": {
+            "type": "equirectangular",
+            "panorama": "img/42_3_hospis.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -6.744942061421507,
+                    "yaw": 4.447186507155807,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_2",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+            "pano42_4": {
+            "type": "equirectangular",
+            "panorama": "img/42_4_laboratory.webp",
+            "yaw": -135,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -25.961967574567183,
+                    "yaw": 41.99293648718895,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_2",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+         "pano42_5": {
+            "type": "equirectangular",
+            "panorama": "img/42_5_next_koridor.webp",
+            "yaw": 90,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -10.791381567145864,
+                    "yaw": -68.50281668240359,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_2",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+                    {
+                    "pitch": -10.159661972588717,
+                    "yaw": -157.87731741771282,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano11",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+
+                        {
+                    "pitch": -23.40256746770681,
+                    "yaw": 89.15951204388197,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_7",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+
+     {
+                    "pitch": -11.714878504185101,
+                    "yaw": 101.33534244301612,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_9",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+    {
+                    "pitch": -0.09172630625641102,
+                    "yaw": 109.94702291740148,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_6",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+         "pano42_2": {
+            "type": "equirectangular",
+            "panorama": "img/42_2_butt_korid.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -36.21264468630655,
+                    "yaw": -143.04331896139382,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_3",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+
+    {
+                    "pitch": -19.76382072063259,
+                    "yaw": -175.50411632662406,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_4",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+    {
+                    "pitch":-13.80338176899791,
+                    "yaw": -168.88666169119153,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_5",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+
+            "pano42_6": {
+            "type": "equirectangular",
+            "panorama": "img/42_6_koridor.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -12.863075839057139,
+                    "yaw": 33.59401280703331,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_5",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+                 
+            ]
+        },
+         "pano42_7": {
+            "type": "equirectangular",
+            "panorama": "img/42_7_reabilitazia.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -33.18547362455553,
+                    "yaw": -47.1224495019286,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_8",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+                 {
+                    "pitch": -19.45584303834483,
+                    "yaw": -4.074639458967283,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_5",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },   
+            ]
+        },
+
+         "pano42_8": {
+            "type": "equirectangular",
+            "panorama": "img/42_8_logoped.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -20.692872199486416,
+                    "yaw": -139.5440848844338,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_7",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+
+            "pano42_9": {
+            "type": "equirectangular",
+            "panorama": "img/42_9_second_floot.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -2.23279513918019,
+                    "yaw": 37.3479154244943,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_11",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+         {
+                    "pitch":-9.238721225083212,
+                    "yaw": 38.30522363954598,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_5",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+     {
+                    "pitch":-4.676506765579849,
+                    "yaw": -140.27817437343333,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_10",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+
+
+         {
+                    "pitch":-13.152274415330169,
+                    "yaw": -114.07486209678783,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_11_b",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+         "pano42_10": {
+            "type": "equirectangular",
+            "panorama": "img/42_10_girl_room.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -36.93703236696909,
+                    "yaw": 25.756851530240706,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_9",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+         "pano42_11_b": {
+            "type": "equirectangular",
+            "panorama": "img/42_11_boy_room.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -11.182987190029026,
+                    "yaw": -150.76527117295188,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_9",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+         "pano42_11": {
+            "type": "equirectangular",
+            "panorama": "img/42_11_second_room.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -14.886461045735231,
+                    "yaw": -38.13135975930861,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+
+                    {
+                    "pitch": -14.379083441030472,
+                    "yaw": 95.552315566024331,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_9",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+            ]
+        },
+
+         "pano42_12": {
+            "type": "equirectangular",
+            "panorama": "img/42_12_chiling_room.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -14.533745740423582,
+                    "yaw": 42.700846577691322,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano13",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
             ]
         }
     };
