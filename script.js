@@ -2459,13 +2459,13 @@ function openPanorama(panoId) {
 
          "pano42_5": {
             "type": "equirectangular",
-            "panorama": "img/42_5_next_koridor.webp",
+            "panorama": "img/42_5_next_k.webp",
             "yaw": 90,
             "pitch": 0,
             "hotSpots": [
                 {
-                    "pitch": -10.791381567145864,
-                    "yaw": -68.50281668240359,
+                    "pitch": -8.758143879794419,
+                    "yaw":  -74.26064307145997,
                     "type": "scene",
                     "text": "Назад ←",
                     "sceneId": "pano42_2",
@@ -2509,7 +2509,7 @@ function openPanorama(panoId) {
                     "yaw": 101.33534244301612,
                     "type": "scene",
                     "text": "Назад ←",
-                    "sceneId": "pano42_9",
+                    "sceneId": "pano42_13",
                     "createTooltipFunc": function(hotSpotDiv) {
             hotSpotDiv.style.width = "40px";
             hotSpotDiv.style.height = "40px";
@@ -2534,13 +2534,13 @@ function openPanorama(panoId) {
         },
          "pano42_2": {
             "type": "equirectangular",
-            "panorama": "img/42_2_butt_korid.webp",
+            "panorama": "img/42_2_butt_k.webp",
             "yaw": 0,
             "pitch": 0,
             "hotSpots": [
                 {
-                    "pitch": -36.21264468630655,
-                    "yaw": -143.04331896139382,
+                    "pitch": -26.861145162779973,
+                    "yaw": -131.89933175008943,
                     "type": "scene",
                     "text": "Назад ←",
                     "sceneId": "pano42_3",
@@ -2553,8 +2553,21 @@ function openPanorama(panoId) {
     },
 
     {
-                    "pitch": -19.76382072063259,
-                    "yaw": -175.50411632662406,
+                    "pitch": -8.32005442375779,
+                    "yaw": -68.29409585835418,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+    {
+                    "pitch": -14.112684549704333,
+                    "yaw":  103.57502082900493,
                     "type": "scene",
                     "text": "Назад ←",
                     "sceneId": "pano42_4",
@@ -2566,8 +2579,8 @@ function openPanorama(panoId) {
         } 
     },
     {
-                    "pitch":-13.80338176899791,
-                    "yaw": -168.88666169119153,
+                    "pitch":-6.470989342952194,
+                    "yaw": 113.444338599649,
                     "type": "scene",
                     "text": "Назад ←",
                     "sceneId": "pano42_5",
@@ -2661,6 +2674,58 @@ function openPanorama(panoId) {
             ]
         },
 
+         "pano42_13": {
+            "type": "equirectangular",
+            "panorama": "img/42_13_second_k.webp",
+            "yaw": 0,
+            "pitch": 0,
+            "hotSpots": [
+                {
+                    "pitch": -39.05113096811588,
+                    "yaw": 29.691505194164847,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_5",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+
+    {
+                    "pitch": -17.299590496433357,
+                    "yaw": -79.69918775393363,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_11",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    },
+
+                    {
+                    "pitch": -32.29831737973738,
+                    "yaw": 117.07487062317321,
+                    "type": "scene",
+                    "text": "Назад ←",
+                    "sceneId": "pano42_9",
+                    "createTooltipFunc": function(hotSpotDiv) {
+            hotSpotDiv.style.width = "40px";
+            hotSpotDiv.style.height = "40px";
+            hotSpotDiv.style.background = "url('img/icon.png') no-repeat center";
+            hotSpotDiv.style.backgroundSize = "contain";
+        } 
+    }
+
+                 
+            ]
+        },
+
 
             "pano42_9": {
             "type": "equirectangular",
@@ -2686,7 +2751,7 @@ function openPanorama(panoId) {
                     "yaw": 38.30522363954598,
                     "type": "scene",
                     "text": "Назад ←",
-                    "sceneId": "pano42_5",
+                    "sceneId": "pano42_13",
                     "createTooltipFunc": function(hotSpotDiv) {
             hotSpotDiv.style.width = "40px";
             hotSpotDiv.style.height = "40px";
@@ -2794,7 +2859,7 @@ function openPanorama(panoId) {
                     "yaw": 95.552315566024331,
                     "type": "scene",
                     "text": "Назад ←",
-                    "sceneId": "pano42_9",
+                    "sceneId": "pano42_13",
                     "createTooltipFunc": function(hotSpotDiv) {
             hotSpotDiv.style.width = "40px";
             hotSpotDiv.style.height = "40px";
@@ -2835,8 +2900,8 @@ function openPanorama(panoId) {
             default: {
                 firstScene: panoId,
                 sceneFadeDuration: 1000,
-                autoLoad: true,
-                hotSpotDebug: true   
+                autoLoad: true
+                // hotSpotDebug: true   
             },
             scenes: panoramas
         });
